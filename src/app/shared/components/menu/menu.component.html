@@ -1,4 +1,5 @@
-<p>menu works!</p>
-
-<p-menu #menu [model]="menuItems" [popup]="true" />
-<p-button (onClick)="menu.toggle($event)" icon="pi pi-ellipsis-v"/>
+<div class="card">
+    <p-menubar [model]="menuItems">
+        <img src="./favicon.ico" alt="icono" height="30">
+    </p-menubar>
+</div>
